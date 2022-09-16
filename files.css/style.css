@@ -11,6 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 1em;
 }
 #display {
     width: 300px;
@@ -23,19 +24,20 @@ button{
 }
 #bottoni-finali {
 display: flex;
+column-gap: 6px;
 }
 #bottoni-finali button {  
     width: 50%;
 }
-#sfondo-bottoni{
-    background-color: rgb(238, 0, 255);
-    margin: 0 auto;
-    width: 300px;
-}
+
 #container{
     display: flex;
     justify-content: center;
     /* align-items: center; */
     margin-block: 138px;
 }
-
+#buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
