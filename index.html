@@ -10,26 +10,43 @@
 </head>
 <body>
     <div id="container">
+      <div id="calcolatrice">
+        <div id="sfondo-bottoni">
+        <div id="schermo">
         <input type="text" id="display" placeholder="0" readonly></input>
         <div id="buttons">
-            <button onclick="addOnDisplay('1')">1</button>
-            <button onclick="addOnDisplay('2')">2</button>
-            <button onclick="addOnDisplay('3')">3</button>
-            <button onclick="addOnDisplay('4')">4</button>
-            <button onclick="addOnDisplay('5')">5</button>
-            <button onclick="addOnDisplay('6')">6</button>
-            <button onclick="addOnDisplay('7')">7</button>
-            <button onclick="addOnDisplay('8')">8</button>
-            <button onclick="addOnDisplay('9')">9</button>
-            <button onclick="addOnDisplay('0')">0</button>
-            <button onclick="addOnDisplay('+')">+</button>
-            <button onclick="addOnDisplay('-')">-</button>
-            <button onclick="addOnDisplay('*')">*</button>
-            <button onclick="addOnDisplay('/')">/</button>
-            <button onclick="addOnDisplay('.')">.</button>
-            <button onclick="showResult()">=</button>
-            <button onclick="deleteDisplay()">del</button>
+          <section>
+          <button onclick="addOnDisplay('7')">7</button>
+          <button onclick="addOnDisplay('8')">8</button>
+          <button onclick="addOnDisplay('9')">9</button>
+          <button onclick="addOnDisplay('/')">/</button>
+          </section>
+          <section>
+          <button onclick="addOnDisplay('4')">4</button>
+          <button onclick="addOnDisplay('5')">5</button>
+          <button onclick="addOnDisplay('6')">6</button>
+          <button onclick="addOnDisplay('*')">*</button>
+         </section>
+         <section>
+         <button onclick="addOnDisplay('1')">1</button>
+         <button onclick="addOnDisplay('2')">2</button>
+         <button onclick="addOnDisplay('3')">3</button>
+         <button onclick="addOnDisplay('-')">-</button>
+         </section>
+         <section>
+           <button onclick="deleteDisplay()">Del</button>
+           <button onclick="addOnDisplay('0')">0</button>
+           <button onclick="addOnDisplay('.')">.</button>
+         <button onclick="addOnDisplay('+')">+</button>
+         </section>
+         <section id="bottoni-finali">   
+           <button onclick="deleteDisplay()">AC</button>
+         <button onclick="showResult()">=</button>
+         </section>
+          </div>
         </div>
+        </div>
+    </div>
     </div>
     <script src="./script.js"></script>
 </body>

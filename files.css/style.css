@@ -1,0 +1,41 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+    font-weight: normal;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #00aaff, #00ff6c);
+}
+#calcolatrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#display {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+button{
+    width: 72px;
+    height: 50px;
+}
+#bottoni-finali {
+display: flex;
+}
+#bottoni-finali button {  
+    width: 50%;
+}
+#sfondo-bottoni{
+    background-color: rgb(238, 0, 255);
+    margin: 0 auto;
+    width: 300px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-block: 138px;
+}
+
